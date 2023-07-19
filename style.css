@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.header{
+    width:auto;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(IMG/Main_Page.jpg);
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px 8%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    padding: 7px 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
