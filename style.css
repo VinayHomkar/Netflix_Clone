@@ -214,3 +214,57 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 4px 8px;
+    }
+    nav .language{
+        padding: 3px 5px;
+    }
+    .header_content h1{
+        font-size: 30px;
+    }
+    .header_content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+
+    }
+    .email button{
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+    .text, .image{
+        flex-basis: 100%;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 15px;
+
+    }
+    .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .feature .row{
+        padding: 10px 0;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    .questions .content{
+        font-size: 14px;
+    }
+    .questions li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+}
+    
