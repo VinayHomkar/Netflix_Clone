@@ -173,3 +173,4 @@ input[type="radio"]{
 .questions input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
 }
+vinay
